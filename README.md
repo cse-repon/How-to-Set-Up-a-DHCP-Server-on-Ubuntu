@@ -2,7 +2,7 @@
 
 Original video link: https://www.youtube.com/watch?v=9DtQRU7XHqw
 
-'''
+```
 sudo apt update && sudo apt upgrade -y
 
 sudo apt install isc-dhcp-server
@@ -42,4 +42,4 @@ network:
         addresses:
           - 8.8.8.8
           - 8.8.4.4
-'''
+```
