@@ -21,7 +21,7 @@ subnet 10.10.10.0 netmask 255.255.255.0 {
 }
 
 
-sudo nano /etc/default/isc-dhc-server
+sudo nano /etc/default/isc-dhcp-server
 
 # On what interfaces should the DHCP server (dhcpd) serve DHCP requests?
 #    Separate multiple interfaces Viith spaces, e.g.'eth0 ethl'
@@ -66,7 +66,7 @@ subnet 10.10.10.0 netmask 255.255.255.0 {
 
 
 
-sudo nano /etc/default/isc-dhc-server
+sudo nano /etc/default/isc-dhcp-server
 
 # On what interfaces should the DHCP server (dhcpd) serve DHCP requests?
 #    Separate multiple interfaces Viith spaces, e.g.'eth0 ethl'
