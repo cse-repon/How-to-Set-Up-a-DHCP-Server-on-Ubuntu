@@ -2,12 +2,14 @@
 
 Original video link: https://www.youtube.com/watch?v=9DtQRU7XHqw
 
+'''
 sudo apt update && sudo apt upgrade -y
 
 sudo apt install isc-dhcp-server
 sudo systemctl status isc-dhcp-server
 
 sudo nano /etc/dhcp/dhcpd.conf
+
 
 # No service will be given on this subnett but declaring it helps the
 # DHCP server to understand the network topology .
@@ -40,3 +42,4 @@ network:
         addresses:
           - 8.8.8.8
           - 8.8.4.4
+'''
