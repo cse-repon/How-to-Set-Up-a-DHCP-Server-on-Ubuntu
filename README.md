@@ -1,4 +1,4 @@
-<img width="1518" height="176" alt="image" src="https://github.com/user-attachments/assets/c1d44581-de16-4e8d-9b23-c23714f8ebe5" /># How-to-Set-Up-a-DHCP-Server-on-Ubuntu
+# How-to-Set-Up-a-DHCP-Server-on-Ubuntu
 
 Original video link: https://www.youtube.com/watch?v=9DtQRU7XHqw
 
