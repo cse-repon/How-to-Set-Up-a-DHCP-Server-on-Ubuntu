@@ -14,10 +14,10 @@ sudo nano /etc/dhcp/dhcpd.conf
 # No service will be given on this subnett but declaring it helps the
 # DHCP server to understand the network topology .
 subnet 10.10.10.0 netmask 255.255.255.0 {
-range 10.10.10.10 10.10.10.60;
-option routers 10.10.10.1;
-option subnet-mask 255.255.255.0;
-option domain-name-servers 10.10.10.1, 8.8.8.8;
+  range 10.10.10.10 10.10.10.60;
+  option routers 10.10.10.1;
+  option subnet-mask 255.255.255.0;
+  option domain-name-servers 10.10.10.1, 8.8.8.8;
 }
 
 
